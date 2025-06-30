@@ -3,108 +3,128 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Abhishek Mishra | Data Analytics Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <title>Abhishek Mishra | Portfolio</title>
   <style>
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #000000, #232526);
-      color: #ffffff;
-      text-align: center;
+      background-color: #f4f4f5;
+      color: #111;
     }
+
     header {
-      padding: 3rem 1rem 1rem;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
       font-size: 2.5rem;
-      font-weight: bold;
-      color: #00e6e6;
     }
-    p.sub {
-      font-size: 1.2rem;
-      color: #aaa;
-      margin-top: -10px;
+
+    header p {
+      margin-top: 0.5rem;
+      color: #cbd5e1;
     }
-    .project-card {
-      max-width: 800px;
-      margin: 2rem auto;
-      background: #1c1c1c;
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
       padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .project-card {
+      background: white;
       border-radius: 12px;
-      box-shadow: 0 0 15px #00e6e6;
-      animation: fadeInUp 1s ease-out;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.3s ease;
     }
-    summary {
-      font-size: 1.2rem;
-      font-weight: bold;
-      cursor: pointer;
-      color: #00e6e6;
+
+    .project-card:hover {
+      transform: translateY(-5px);
     }
-    details[open] summary {
-      color: #ffffff;
-    }
-    ul {
-      text-align: left;
-    }
-    img {
+
+    .thumbnail {
       width: 100%;
-      border-radius: 8px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 1rem;
+    }
+
+    .card-body h3 {
+      margin: 0;
+      font-size: 1.25rem;
+      color: #0f172a;
+    }
+
+    .card-body p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       margin-top: 1rem;
     }
-    a {
-      color: #00e6e6;
+
+    .buttons a {
       text-decoration: none;
+      color: #2563eb;
+      font-weight: 500;
     }
-    @keyframes fadeInUp {
-      from { transform: translateY(20px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
+
+    .badge {
+      padding: 0.2rem 0.5rem;
+      background: #e0e7ff;
+      color: #4338ca;
+      border-radius: 6px;
+      font-size: 0.75rem;
     }
+
     footer {
-      margin-top: 4rem;
+      text-align: center;
       padding: 2rem;
+      background: #f1f5f9;
+      color: #64748b;
       font-size: 0.9rem;
-      color: #aaa;
     }
   </style>
 </head>
 <body>
   <header>
-    Abhishek Mishra
-    <p class="sub">Data Analytics Portfolio</p>
+    <h1>Abhishek Mishra</h1>
+    <p>Data Analytics Portfolio</p>
   </header>
 
-  <div class="project-card">
-    <h3>📊 Project 1: Migration Trends in Australia (1996–2016)</h3>
-    <details>
-      <summary>📄 Read More: Full Report & Dashboard Analysis</summary>
-      <p><strong>Course:</strong> BUSA8031 – Data Visualization for Business<br>
-         <strong>Tools Used:</strong> Power BI, Microsoft Excel, ABS CSV datasets<br>
-         <strong>Skills Applied:</strong> Dashboard design, storytelling, slicers, regional comparison</p>
+  <section class="portfolio-grid">
+    <div class="project-card">
+      <img src="images/dashboard1.png" alt="Migration Trends Thumbnail" class="thumbnail">
+      <div class="card-body">
+        <h3>Migration Trends in Australia</h3>
+        <p> Visualising migration patterns (1996–2016) using Power BI.</p>
+        <div class="buttons">
+          <a href="project1.html">Explore &rarr;</a>
+          <span class="badge">Power BI</span>
+        </div>
+      </div>
+    </div>
 
-      <p>This project visualizes Australia's population and migration patterns over 20 years using interactive Power BI dashboards. It explores state-wise population distribution, migrant source regions, workforce age profiles, and settlement patterns.</p>
-
-      <ul>
-        <li>Dashboard 1: Population trends by region, gender, and age using slicers</li>
-        <li>Dashboard 2: Migrant demographics and countries of origin</li>
-        <li>Dashboard 3: Regional settlement comparisons and age profiles</li>
-      </ul>
-
-      <p><strong>Key Highlights (Dashboard 1):</strong><br>
-      NSW and Victoria are the most populated states, consistently growing due to better career options and urban appeal.<br>
-      Slicers enabled comparison between states by age and gender.<br>
-      Age distribution shows high working-age presence in VIC and NSW.</p>
-
-      <p><strong>🖼️ Dashboard Previews:</strong></p>
-      <img src="images/dashboard1.png" alt="Dashboard 1">
-      <img src="images/dashboard2.png" alt="Dashboard 2">
-      <img src="images/dashboard3.png" alt="Dashboard 3">
-
-      <br><br>
-      <a href="busa8030_assignment2.pdf" target="_blank">📎 View Full Report PDF</a>
-    </details>
-  </div>
+    <!-- Add more project-cards here if needed -->
+  </section>
 
   <footer>
-    This project is maintained by <a href="https://github.com/abhimishra0395" target="_blank">@abhimishra0395</a>  •  Hosted on GitHub Pages
+    &copy; 2025 Abhishek Mishra | Hosted on GitHub Pages
   </footer>
 </body>
 </html>
