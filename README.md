@@ -1,24 +1,24 @@
 # 📊 Abhishek Mishra – Data Analytics Portfolio
 
 ---
-## 📊 Project 1: Migration Trends in Australia (1996–2016)
+<h3>📊 Project 1: Migration Trends in Australia (1996–2016)</h3>
 
-**Tools Used:** Power BI, Excel, ABS Datasets  
-**Skills:** Dashboard design, demographic analysis, slicers & filters
+<details>
+  <summary><strong>📄 Read More: Full Report & Dashboard Analysis</strong></summary>
 
----
+  <p><strong>Tools Used:</strong> Power BI, Microsoft Excel, ABS CSV datasets<br>
+  <strong>Skills Applied:</strong> Dashboard design, demographic storytelling, slicers & filters, regional comparison, demographic analysis</p>
 
-### 📍 Dashboard 1: Total Estimated Population Across Regions (1996–2016)
+  <p>This project visualizes changes in Australia's total estimated resident population from 1996 to 2016. It highlights key migration trends across states and territories using slicers for age, gender, and region.</p>
 
-This dashboard shows how population changed across Australian states from 1996 to 2016.
+  <ul>
+    <li>NSW and VIC show the highest population growth, driven by job opportunities and urban appeal</li>
+    <li>Slicers allow comparison by gender and age group</li>
+    <li>Young working-age population is concentrated in VIC and NSW</li>
+  </ul>
 
-**Key Insights:**
-- NSW and VIC are most populated due to job and city appeal  
-- Slicers compare states by gender and age  
-- Young working population concentrated in VIC and NSW
-- 
-📸 **Screenshot:**  
-![Dashboard 1](images/dashboard1.png)
+  <p><strong>🖼️ Dashboard Preview:</strong></p>
+  <img src="images/dashboard1.png" alt="Dashboard Screenshot" width="80%">
 
-📄 [📥 Read Full Report (PDF)](https://github.com/abhimishra0395/Datascience_Portfolio/raw/main/assignment2.pdf)
-
+  <p><strong>📎 Full Report:</strong> <a href="assignment2.pdf" target="_blank">Click here to view the full PDF report</a></p>
+</details>
