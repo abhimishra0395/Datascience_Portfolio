@@ -20,6 +20,7 @@ This dashboard shows how population numbers changed in different states of Austr
 - Age distribution shows high working-age presence in VIC and NSW.
 
 🖼️ Screenshot:  
+
 ![Dashboard 1](/Datascience_Portfolio/images/dashboard1.png)
 
 🔗 [📄 Read Full Report (PDF)](assignment2.pdf)
