@@ -1,19 +1,31 @@
-## 🌏 [Project 1: Migration Trends in Australia (1996–2016)]()
+# 📊 Abhishek Mishra – Data Analytics Portfolio
+
+---
+
+## 🌏 Project 1: Migration Trends in Australia (1996–2016)
 
 **Tools used**: Power BI, Microsoft Excel, CSV datasets from ABS  
 **Skills applied**: Dashboard design, storytelling with data, slicers and filters, regional comparison, demographic analysis
-This project was part of my university coursework at Macquarie University (BUSA8031). The goal was to analyze migration and population trends across Australia from 1996 to 2016 using interactive dashboards.
-### 🖼️ Dashboard 1: Total Population by Region (1996–2016)
 
+---
+
+<details open>
+<summary>📍 <strong>Dashboard 1: Total Estimated Population Across Regions (1996–2016)</strong></summary>
+
+This dashboard shows how population numbers changed in different states of Australia between 1996 and 2016.
+
+**Key Highlights:**
+- NSW and Victoria are the most populated states, consistently growing due to better career options and urban appeal.
+- Slicers enabled comparison between states by age and gender.
+- Age distribution shows high working-age presence in VIC and NSW.
+
+🖼️ Screenshot:  
 ![Dashboard 1](/Datascience_Portfolio/images/dashboard1.png)
 
-[Read Full Report](assignment2.pdf)
+🔗 [📄 Read Full Report (PDF)](/Datascience_Portfolio/images/assignment2.pdf)
 
-**🧠 Key Features**:
-- 3 Dashboards exploring total population, migrant origins, and settlement patterns
-- Slicers by **state**, **age group**, **gender**, and **country of birth**
-- Comparative visuals: **Asia vs Europe migration**, **NSW vs VIC settlement**, and **workforce age groups**
-**📌 Insights:**
-- NSW and Victoria remain the most popular states due to better jobs and economy
-- Migration from Asia has grown faster than from Europe since 1996
-- Most migrants from China, India, and England are in the working-age group (20–65)
+</details>
+
+---
+
+🚧 *More dashboards from this project (Dashboard 2 & 3) coming soon...*
