@@ -21,7 +21,7 @@ This dashboard shows how population numbers changed in different states of Austr
 
 🖼️ Screenshot:  
 
-![Dashboard 1](/Datascience_Portfolio/images/dashboard1.png)
+![Dashboard 1](/images/dashboard1.png)
 
 🔗 [📄 Read Full Report (PDF)](assignment2.pdf)
 
