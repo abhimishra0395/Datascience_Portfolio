@@ -19,4 +19,4 @@ This dashboard shows how population changed across Australian states from 1996 t
 
 ![Dashboard 1](images/dashboard1.png)
 
-📄 [Read Full Report (PDF)](assignment2.pdf)
+📄 [Read Full Report (PDF)](images/assignment2.pdf)
