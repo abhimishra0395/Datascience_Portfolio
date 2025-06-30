@@ -18,8 +18,19 @@
   </ul>
 
   <p><strong>🖼️ Dashboard Preview:</strong></p>
-  <img src="images/dashboard1.png" alt="Dashboard Screenshot" width="80%">
+  
+  <p><strong>Dashboard 1:</strong></p>
+  <img src="images/dashboard1.png" alt="Dashboard 1 Screenshot" width="80%">
+  
+  <p><strong>Dashboard 2:</strong></p>
+  <img src="images/dashboard2.png" alt="Dashboard 2 Screenshot" width="80%">
 
-  <p><strong>📎 Full Report (PDF):</strong>  
-  <a href="docs/busa8030_assignment2.pdf" target="_blank">View Assignment Report</a></p>
+  <p><strong>Dashboard 3:</strong></p>
+  <img src="images/dashboard3.png" alt="Dashboard 3 Screenshot" width="80%">
+
+<p>This dashboard shows how population numbers changed in different states of Australia between 1996 and 2016.</p>
+  <p><strong>Key Highlights:</strong><br>
+  - NSW and Victoria are the most populated states, consistently growing due to better career options and urban appeal.<br>
+  - Slicers enabled comparison between states by age and gender.<br>
+  - Age distribution shows high working-age presence in VIC and NSW.</p>
 </details>
