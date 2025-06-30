@@ -14,20 +14,14 @@
 
 This dashboard shows how population numbers changed in different states of Australia between 1996 and 2016.
 
-**Key Highlights:**
-- NSW and Victoria are the most populated states, consistently growing due to better career options and urban appeal.
-- Slicers enabled comparison between states by age and gender.
+**Key Highlights:**  
+- NSW and Victoria are the most populated states, consistently growing due to better career options and urban appeal.  
+- Slicers enabled comparison between states by age and gender.  
 - Age distribution shows high working-age presence in VIC and NSW.
 
-🖼️ Screenshot:  
+📸 **Screenshot:**  
+<img src="images/dashboard1.png" alt="Dashboard 1 Screenshot" width="600"/>
 
-![Dashboard 1](/images/dashboard1.png)
-
-🔗 [📄 Read Full Report (PDF)](assignment2.pdf)
-
+📄 **[Read Full Report (PDF)](assignment2.pdf)**
 
 </details>
-
----
-
-🚧 *More dashboards from this project (Dashboard 2 & 3) coming soon...*
