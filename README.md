@@ -7,13 +7,7 @@ This project was part of my university coursework at Macquarie University (BUSA8
 
 ![Dashboard 1](/Datascience_Portfolio/images/dashboard1.png)
 
-### 🖼️ Dashboard 2: Migrant Population Insights
-
-![Dashboard 2](/Datascience_Portfolio/images/dashboard2.png)
-
-### 🖼️ Dashboard 3: Migration Stories – Asia vs Europe
-
-![Dashboard 3](/Datascience_Portfolio/images/image.png)
+[Read Full Report](assignment2.pdf)
 
 **🧠 Key Features**:
 - 3 Dashboards exploring total population, migrant origins, and settlement patterns
